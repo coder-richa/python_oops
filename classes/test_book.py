@@ -76,6 +76,7 @@ def test_object_creation_with_correct_values():
     assert book.id == "Book-1" and book.title == "Title" \
            and book.author == "James Bond" and book.price == 10
 
+
 # A unit Test
 def test_object_string_format():
     """
